@@ -104,3 +104,10 @@ input.submit{
   font-weight: 600 !important;
   
 }
+
+@media (max-width:991.5px) {
+  .overflow{
+      overflow: hidden;
+  }
+  
+}

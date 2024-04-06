@@ -105,9 +105,8 @@ input.submit{
   
 }
 
-@media (max-width:991.5px) {
-  .overflow{
+@media (max-width:992px) {
+  .overflow {
       overflow: hidden;
   }
-  
 }

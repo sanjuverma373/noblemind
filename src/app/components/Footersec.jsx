@@ -34,7 +34,7 @@ const Footersec = () => {
                                         </div>
                                 </div>
                         </div> 
-                        <p className=' text-white text-sm text-center font-Exo opacity-[70%] pt-[16px] pb-[16px] lg:pb-[35px] border-t border-solid border-t-[#5A5A50]'>© Copyright 2023 Noble Mind | All rights reserved. </p>                       
+                        <p className=' text-white text-sm text-center font-Exo opacity-[70%] pt-[16px] pb-[16px] lg:pb-[35px] border-t border-solid border-t-[#5A5A50]'>© Copyright 2024 Noble Mind | All rights reserved. </p>                       
                 </div>
         )
 }

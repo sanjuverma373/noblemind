@@ -11,7 +11,7 @@ const Contactus = () => {
       e.preventDefault();
       if (document.getElementById('name').value !== '' && document.getElementById('email').value !== '' && document.getElementById('text').value !== '') {
           emailjs
-              .sendForm('service_29d4v7n', 'template_pbr1t4p', form.current, {
+              .sendForm('service_gtssbkg', 'template_zqihkrk', form.current, {
                   publicKey: 'LSDT0o-MnV4WWn46U',
               })
               .then(

@@ -14,7 +14,7 @@ const Choosesec = () => {
         { id: 4, title: 'Customer-Centric', para: 'Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.' },
     ]
     return (
-        <div id='choose' className=" relative z-10">
+        <div id='choose' className="mt-10 sm:mt-16 md:mt-[100px] lg:mt-[150px] relative z-10">
             <div className="container flex flex-col items-center justify-center mx-auto px-3 overflow-hidden">
                 <div className=' flex items-center gap-[6px] pb-2'>
                     <span><Stars /></span>

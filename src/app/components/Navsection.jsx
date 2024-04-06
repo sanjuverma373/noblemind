@@ -14,7 +14,7 @@ const Navsection = () => {
                 }
         }
 
-        { first ? document.body.classList.add("overflow-hidden") : document.body.classList.remove("overflow-hidden") }
+        // { first ? document.body.classList.add("overflow-hidden") : document.body.classList.remove("overflow-hidden") }
         return (
                 <div className='py-[19px] absolute top-0 left-0 w-full'>
                         <div className=' container px-3 mx-auto'>

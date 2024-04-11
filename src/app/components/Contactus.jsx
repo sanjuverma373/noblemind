@@ -11,7 +11,7 @@ const Contactus = () => {
       e.preventDefault();
       if (document.getElementById('name').value !== '' && document.getElementById('email').value !== '' && document.getElementById('text').value !== '') {
           emailjs
-              .sendForm('service_gtssbkg', 'template_zqihkrk', form.current, {
+              .sendForm('service_gtssbkg', 'template_rdt2k7c', form.current, {
                   publicKey: 'LSDT0o-MnV4WWn46U',
               })
               .then(
@@ -51,11 +51,11 @@ const Contactus = () => {
                 <label className=' font-Exo text-sm md:text-base text-[#5A594D] font-normal pb-[5px]'>Email</label>
                 <input type="email" className='email px-2' id='email'  />
               </div>
-              <div className=' flex flex-col mb-4 w-full'>
+              <div className=' flex flex-col  w-full'>
                 <label className=' font-Exo text-sm md:text-base text-[#5A594D] font-normal pb-[5px]'>Message</label>
                 <textarea type="text" className='message resize-none px-2' id='text' />
               </div>
-              <input className='duration-300 hover:bg-gradient-to-br hover:to-[#4F91FC] hover:to-50% hover:from-[#A854E8] hover:scale-95 bg-gradient-to-br to-[#A854E9] to-50%  from-[#4F91FC] font-Outfit cursor-pointer py-[14px] px-[24px] submit ' type="submit" value="Submit" />
+              <input className='duration-300 hover:bg-gradient-to-br hover:to-[#4F91FC] hover:to-50% hover:from-[#A854E8] hover:scale-95 bg-gradient-to-br to-[#A854E9] to-50%  from-[#4F91FC] font-Outfit cursor-pointer py-[14px] px-[24px] submit mt-4 ' type="submit" value="Submit" />
             </form></div>
           <div>
             <Image src={contactimg} alt="#" height={572} width={598} className=' w-full' />
